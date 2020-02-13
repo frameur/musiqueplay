@@ -15,10 +15,6 @@ h5{
     font-size: 50px;
 }
 
-.container{
-    /* width: 100%; */
-    
-}
 
 /* en tete */
 header{
@@ -58,7 +54,7 @@ header{
     
 }
 .slider{
-    background-color: rgb(164, 218, 218);
+    background-color: black;
     height: 550px;
 }
 .carousel{
