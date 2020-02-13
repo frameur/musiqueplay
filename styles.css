@@ -53,6 +53,11 @@ header{
     padding-top: 10px;
     
 }
+
+.carousel-item{
+    height: 450px;
+    width: auto;
+}
 .slider{
     background-color: black;
     height: 550px;
@@ -67,7 +72,7 @@ header{
     background-size: 500px;
 }
 .imgtrois{
-    background-color: rgb(223, 162, 39);
+    
     height: 500px;
     width: 300px;
     margin: 10px;
