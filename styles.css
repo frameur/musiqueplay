@@ -26,10 +26,16 @@ header{
     width: auto;
     height: 110px;
 }
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .navbar-brand img{
     position: absolute;
     top: 0;
     left: auto;
+    
 }
 .nav1{
     position: relative;
