@@ -1,22 +1,24 @@
+/* general */
+
 */{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 html{
     width: 100%;
     height: 100vh;
 }
+ 
+h5{
+    color: rgb(241, 2, 2);
+    font-size: 50px;
+}
 
-
-
-
-
-
-
-
-
-
+.container{
+    /* width: 100%; */
+    
+}
 
 /* en tete */
 header{
@@ -24,25 +26,56 @@ header{
     width: auto;
     height: 110px;
 }
+.navbar-brand img{
+    position: absolute;
+    top: 0;
+    left: auto;
+}
+.nav1{
+    position: relative;
+    top: 40px;
+    margin-left: auto;
+}
+.nav-link{
+    font-size: 120%;
+    font-weight: bolder;
+}
+.form-inline{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
 /* carousel et photos */
-
+.container .slide{
+    width: 110%;
+    padding-top: 10px;
+    
+}
+.slider{
+    background-color: rgb(164, 218, 218);
+    height: 550px;
+}
 .carousel{
-    background-color: rgb(56, 52, 52);
+    
     height: 500px;
-    margin: 10px 20px 20px 0;
+    margin: 0 20px 20px 0;
     
-    
-    
-
-
+}
+.d-block-w-100{
+    background-size: 500px;
 }
 .imgtrois{
-    background-color: rgb(172, 119, 13);
+    background-color: rgb(223, 162, 39);
     height: 500px;
     width: 300px;
-    margin-top: 10px;
-    margin-left: 1px;
+    margin: 10px;
+    position: absolute;
+    right: 0;
+    top: 120px;
    
+}
+.imgtrois img{
+    padding: 10px 10px 10px 0;
 }
 
 /* actualités */
