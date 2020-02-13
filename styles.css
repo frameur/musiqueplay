@@ -1,0 +1,56 @@
+*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* en tete */
+header{
+    background-color: rgb(47, 83, 161);
+    width: auto;
+    height: 110px;
+}
+/* carousel et photos */
+
+.carousel{
+    background-color: rgb(56, 52, 52);
+    height: 500px;
+    margin: 10px 20px 20px 0;
+    
+    
+    
+
+
+}
+.imgtrois{
+    background-color: rgb(172, 119, 13);
+    height: 500px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 1px;
+   
+}
+
+/* actualités */
+
+/* discover */
+
+/* play musique */
+
+/* evenements */
+
+/* contacts et lien */
