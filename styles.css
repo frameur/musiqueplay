@@ -23,7 +23,12 @@ h5{
 
 
 /* en tete */
-header{
+
+.imgpres{
+
+
+}
+nav{
     background-color: rgb(47, 83, 161);
     width: auto;
     height: 110px;
@@ -54,6 +59,11 @@ header{
     right: 0;
 }
 /* carousel et photos */
+.container{
+  width: 100%;
+  
+}
+
 .container .slide{
     width: 110%;
     padding-top: 10px;
