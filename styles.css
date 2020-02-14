@@ -9,6 +9,12 @@ html{
     width: 100%;
     height: 100vh;
 }
+h1{
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin: 40px 0 40px;
+}
  
 h5{
     color: rgb(241, 2, 2);
@@ -88,14 +94,20 @@ img .d-block-w-100{
 
 /* actualités */
 
+.container .actualite{
+  height: 400px;
+  background-color: rgb(25, 14, 173);
+}
+
 /* Style the Image Used to Trigger the Modal */
-#myImg {
+.myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    
   }
   
-  #myImg:hover {opacity: 0.7;}
+  .myImg:hover {opacity: 0.7;}
   
   /* The Modal (background) */
   .modal {
@@ -121,7 +133,7 @@ img .d-block-w-100{
   }
   
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
-  #caption {
+  .caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -133,7 +145,7 @@ img .d-block-w-100{
   }
   
   /* Add Animation - Zoom in the Modal */
-  .modal-content, #caption {
+  .modal-content, .caption {
     animation-name: zoom;
     animation-duration: 0.6s;
   }
@@ -169,8 +181,19 @@ img .d-block-w-100{
   }
 
 /* discover */
+.discover{
+
+  background-color: rgb(62, 62, 129);
+  height: 200px;
+  width: 100%;
+}
 
 /* play musique */
+ .playalbums{
+   background-color: brown;
+   width: auto;
+   height: 600px;
+ }
 
 /* evenements */
 
