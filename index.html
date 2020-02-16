@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- style -->
+    <link href="https://fonts.googleapis.com/css?family=Lacquer|Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <link rel="stylesheet" href="./styles.css">
 
@@ -19,8 +20,8 @@
 
     <!-- navbar brand and navbar-->
 
-    <section>
-        <div class="container-fluid">
+    <section class="nav fixed-top">
+        <div class="container menunav">
             <div class="row">
                 <div class="col-lg-12">
                     <!--Navbar-->
@@ -40,14 +41,20 @@
 
                             <!-- Links -->
                             <ul class="navbar-nav mr-auto nav1">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Actualités</a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Accueil</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Albums</a>
+                                    <a class="nav-link" href="#">Chroniques</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Concert</a>
+                                    <a class="nav-link" href="#">Articles</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Agenda</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
                                 </li>
 
                             </ul>
@@ -64,16 +71,16 @@
     <!-- carousel -->
 
     <section class="carousel">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/image/david-grandmougin-jRAGIjzfcrc-unsplash.jpg" class="d-block w-100" alt="...">
+                    <img src="./image/david-grandmougin-jRAGIjzfcrc-unsplash.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="/image/alexandre-debieve-2EmLMaTshko-unsplash.jpg" class="d-block w-100" alt="...">
+                    <img src="./image/alexandre-debieve-2EmLMaTshko-unsplash.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="/image/randy-colas-niv2F-Z_j9o-unsplash.jpg" class="d-block w-100" alt="...">
+                    <img src="./image/randy-colas-niv2F-Z_j9o-unsplash.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -90,62 +97,103 @@
 
     <!-- actualités -->
 
-    <section>
-        <div class="container actualite">
+    <section class="actualite">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>actualités</h1>
+                    <h1>la play agenda</h1>
                 </div>
+
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="..." class="card-img" alt="...">
+                            <img src="./image/jakob-owens-WtZqMLOEwlI-unsplash.jpg" class="card-img" alt="...">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 class="card-title">concerts</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
+                                    illum.</p>
+                                <p class="card-text"><small class="text-muted">les dates</small></p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px; margin-left: auto;">
                     <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="..." class="card-img" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <div class="col-md-4">
+                            <img src="./image/luis-vaz-9RIFeVL73sk-unsplash.jpg" class="card-img" alt="...">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Sorties</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quia
+                                    assumenda molestias minus voluptatibus tempore!</p>
+                                <p class="card-text"><small class="text-muted">les dates</small></p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
-        </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card bg-dark text-white">
+                        <img src="./image/timon-klauser-3MAmj1ZKSZA-unsplash.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Informations</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                                perspiciatis? Ducimus saepe aperiam soluta accusantium libero, qui quidem perferendis
+                                ipsam culpa, repellendus quo quis, praesentium omnis! Et, debitis. Dolorum ullam modi in
+                                possimus dolorem nulla excepturi illum aliquam pariatur voluptatibus?</p>
+                            <p class="card-text">Le meilleur de l'actualité</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    </section>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <section class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/1e5zfA5UvYo"
-                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe></section>
+            <div class="row">
+                <div class="col-md-12">
+
+                </div>
             </div>
+
         </div>
-    </div>
+    </section>
     <!-- album du mois -->
     <div class="container playalbums">
         <div class="row">
             <div class="col-lg-12">
-                <h1>les albums du mois</h1>
+                <h1>la play album </h1>
             </div>
         </div>
     </div>
+    <!-- la video du mois -->
+    <div class="section video">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>la play video</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/e19AZhSwyCs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="col-md-6">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5vBGOrI6yBk?controls=0"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    </div>
+
 
     <!-- contacts et lien -->
 
@@ -154,19 +202,20 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1>site musique et contact</h1>
+                        <h1>la play contact</h1>
                     </div>
                 </div>
 
             </div>
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="card">
+                    <div class="card-site">
                         <div class="card-body">
                             <h5 class="card-title">Site musique</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
-                            </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="https://www.musicwaves.fr/default.aspx" class="card-text">
+                                <h2>- musicwaves</h2>
+                            </a> <br><br>
+                            <a href="#" class="btn btn-primary">clic and up...</a>
                         </div>
                     </div>
                 </div>
@@ -174,9 +223,11 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Contact</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            <p class="card-text-contact">
+                                <h2>5 rue du live 44000 NANTES - 06 02 05 03 14 - <a href="#">liveplay@gmail.com</a>
+                                </h2>
                             </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">clic and up...</a>
                         </div>
                     </div>
                 </div>

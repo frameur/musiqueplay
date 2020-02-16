@@ -1,79 +1,109 @@
 /* general */
 
-*/{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} 
+*/ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
   height: 100vh;
 }
-h1{
+
+h1 {
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
   margin: 40px 0 40px;
-}
- 
-h5{
-    color: rgb(241, 2, 2);
-    font-size: 50px;
+  font-family: 'Lacquer', sans-serif;
+  font-family: 'Permanent Marker', cursive;
+  color: red;
 }
 
 
-/* menu */
-.col-lg-12{
+h5 {
+  color: rgb(43, 103, 231);
+  font-size: 50px;
+}
+
+
+/* menu  nav*/
+.col-lg-12 {
   margin: 0;
   padding: 0;
-  
+
 }
 
-nav{
-    background-color: rgb(47, 83, 161);
-    width: auto;
-    height: 100px;
-    color: cornsilk;
-    
+.nav {
+  color: #fff;
 }
-.navbar-brand{
-    font-size: 30px;
-    font-weight: bolder;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+
+.nav {
+  background-color: rgb(47, 83, 161);
+  width: auto;
+  height: 120px;
+
+
+
 }
-.navbar-brand img{
-    position: absolute;
-    top: 0;
-    left: auto;
-    
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
 }
-.nav1{
-    position: relative;
-    top: 20px;
-    margin-left: auto;
-    
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-family: 'Lacquer', sans-serif;
+  font-family: 'Permanent Marker', cursive;
 }
-.nav-link{
-    font-size: 120%;
-    font-weight: bolder;
-    
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  margin-left: 40px;
 }
-.form-inline{
-    top: 50px;
-    
-    
+
+.nav1 {
+  position: relative;
+  top: 20px;
+  margin-left: auto;
+  color: #fff;
 }
+
+.nav-link {
+  font-size: 120%;
+  font-weight: bolder;
+  color: #fff;
+
+}
+
+.form-control {
+  margin: 30px 0 0 100px;
+
+}
+
+.form-inline {
+  top: 20px;
+
+
+}
+
 /* carousel  */
-.carousel{
+.carousel {
   margin-top: -20px;
 
 }
-.search-sec{
+
+.search-sec {
   padding: 2rem;
 }
-.search-slt{
+
+.search-slt {
   display: block;
   width: 100%;
   font-size: 0.875rem;
@@ -83,49 +113,86 @@ nav{
   background-image: none;
   border: 1px solid #ccc;
   height: calc(3rem + 2px) !important;
-  border-radius:0;
+  border-radius: 0;
 }
-.wrn-btn{
+
+.wrn-btn {
   width: 100%;
   font-size: 16px;
   font-weight: 400;
   text-transform: capitalize;
   height: calc(3rem + 2px) !important;
-  border-radius:0;
+  border-radius: 0;
 }
-@media (min-width: 992px){
-  .search-sec{
-      position: relative;
-      top: -114px;
-      background: rgba(26, 70, 104, 0.51);
+
+@media (min-width: 992px) {
+  .search-sec {
+    position: relative;
+    top: -114px;
+    background: rgba(26, 70, 104, 0.51);
   }
 }
 
-@media (max-width: 992px){
-  .search-sec{
-      background: #1A4668;
+@media (max-width: 992px) {
+  .search-sec {
+    background: #1A4668;
   }
 }
-    
 
-/* actualités */
 
-.actualite{
-  height: 600px;
+/* agenda */
+
+.actualite {
+  height: 800px;
+  background-image: url(./image/timon-klauser-3MAmj1ZKSZA-unsplash.jpg);
+  background-size: cover;
+
+}
+
+.card-img{
+  height: 300px;
+  background-color: rgb(128, 126, 138);
+}
+.card-text{
+  font-weight: bold;
   
 }
-.video{
-  display: block;
 
+.iframe{
+  background-color: rgb(235, 220, 201);
+  margin-left: auto;
+  padding: 20px;
   
+
+
 }
+
 /* play musique */
- .playalbums{
-   
-   width: auto;
-   height: 600px;
- }
+.playalbums {
+
+  width: auto;
+  height: 600px;
+}
 
 /* evenements */
 
 /* contacts et lien */
+footer{
+  background-color:rgb(47, 83, 161)  ;
+}
+.card{
+  background-color: rgb(47, 83, 161);
+}
+.card-title{
+  color: #fff;
+  
+}
+
+.card-body a{
+  text-decoration: none;
+  color: black;
+}
+.card-body a:hover{
+  color:white;
+}
+
