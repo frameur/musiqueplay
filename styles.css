@@ -23,12 +23,18 @@ h5{
 }
 
 
-/* en tete */
+/* menu */
+.col-lg-12{
+  margin: 0;
+  padding: 0;
+  
+}
 
 nav{
     background-color: rgb(47, 83, 161);
     width: auto;
-    height: 110px;
+    height: 100px;
+    
 }
 .navbar-brand{
     font-size: 30px;
@@ -45,29 +51,53 @@ nav{
     position: relative;
     top: 20px;
     margin-left: auto;
+    
 }
 .nav-link{
     font-size: 120%;
     font-weight: bolder;
 }
 .form-inline{
-    
     top: 50px;
     
 }
-/* carousel et photos */
+/* carousel  */
 
-
-#carouselExemple {
-  width: 60%;
-  margin: 0 auto;
-  margin-top: 100px;
-  background-image: url(/image/david-grandmougin-jRAGIjzfcrc-unsplash.jpg);
+.search-sec{
+  padding: 2rem;
+}
+.search-slt{
+  display: block;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #55595c;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  height: calc(3rem + 2px) !important;
+  border-radius:0;
+}
+.wrn-btn{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  height: calc(3rem + 2px) !important;
+  border-radius:0;
+}
+@media (min-width: 992px){
+  .search-sec{
+      position: relative;
+      top: -114px;
+      background: rgba(26, 70, 104, 0.51);
+  }
 }
 
-.carousel-item img {
-  width: 100%;
-  height: auto;
+@media (max-width: 992px){
+  .search-sec{
+      background: #1A4668;
+  }
 }
     
 
