@@ -34,12 +34,14 @@ nav{
     background-color: rgb(47, 83, 161);
     width: auto;
     height: 100px;
+    color: cornsilk;
     
 }
 .navbar-brand{
     font-size: 30px;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 .navbar-brand img{
     position: absolute;
@@ -56,9 +58,11 @@ nav{
 .nav-link{
     font-size: 120%;
     font-weight: bolder;
+    
 }
 .form-inline{
     top: 50px;
+    
     
 }
 /* carousel  */
