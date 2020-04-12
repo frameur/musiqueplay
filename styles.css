@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   
+  
 }
 
 body {
@@ -313,6 +314,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fff;
+  scroll-behavior: smooth;
 }
 
 a {
