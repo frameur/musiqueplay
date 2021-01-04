@@ -59,3 +59,25 @@ window.addEventListener('keydown', handleKeyEvents);
 function handleKeyEvents(event) {
     playDrum(event.key.toUpperCase());
 };
+
+// scroll nav bar
+
+navbar = document.getElementById('navbar');
+navElements = document.getElementById('nav-elements')
+
+window.addEventListener('scroll', function() {
+    const scroll = this.document.documentElement.scrollTop;
+
+    if (scroll > 200) {
+        navbar.style.height = "10vh";
+        navElements.style.height = "10vh";
+        navbar.style.background = "rgb(122, 160, 243, 0.800)";
+
+    }else{
+        navbar.style.height = "15vh";
+        navElements.style.height = "15vh";
+        navbar.style.background = " rgb(47, 83, 161)";
+        
+
+    }
+})
