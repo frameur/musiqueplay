@@ -89,7 +89,8 @@ nav{
 }
 .nav-link::first-letter{
   font-size: 1.5rem;
-  color: red;
+  color: blue;
+  font-family:'Permanent Marker', cursive  ;
 }
 
 .form-control {
