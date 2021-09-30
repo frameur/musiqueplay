@@ -1,6 +1,6 @@
 /* general */
 
-*/ {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -40,7 +40,7 @@ h5 {
 /* menu  nav*/
 nav{
   width: 100%;
-  background: rgb(47, 83, 161);
+  /* background: rgb(47, 83, 161); */
   box-shadow: 0 0 2rem #333;
   position: fixed;
   transition: all 0.3s ease-out;
@@ -51,7 +51,7 @@ nav{
 }
 
 .nav {
-  /* background-color: rgb(47, 83, 161); */
+  background-color: rgb(47, 83, 161, 0.5);
   width: 100%;
   color: #fff;
   
@@ -93,68 +93,13 @@ nav{
   font-family:'Permanent Marker', cursive  ;
 }
 
-.form-control {
-  margin: 20px 0 0 50px;
-
-}
-
-.form-inline {
-  top: 20px;
-
-}
-@media (max-width:500px){
-  #navbar{
-   
-
-  }
-}
-
 /* carousel  */
 .carousel {
   margin-top: 0;
 }
-
-.search-sec {
-  padding: 2rem;
+section .carousel img {
+  height: 100vh;
 }
-
-.search-slt {
-  display: block;
-  width: 100%;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  color: #55595c;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ccc;
-  height: calc(3rem + 2px) !important;
-  border-radius: 0;
-}
-
-.wrn-btn {
-  width: 100%;
-  font-size: 16px;
-  font-weight: 400;
-  text-transform: capitalize;
-  height: calc(3rem + 2px) !important;
-  border-radius: 0;
-}
-
-@media (min-width: 992px) {
-  .search-sec {
-    position: relative;
-    top: -114px;
-    background: rgba(26, 70, 104, 0.51);
-  }
-}
-
-@media (max-width: 992px) {
-  .search-sec {
-    background: #1A4668;
-  }
-}
-
-
 /* agenda */
 
 .actualite {
@@ -283,6 +228,172 @@ footer{
   }
 }
 
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background: url(./fondstudio.jpg) center/cover;
+  
+} */
+
+.rotatevinyl {
+  width: 50%;
+  position: absolute;
+  margin-top: 20px;
+  top: 50%;
+  left: 50%;
+  animation: rotatevinyl 2s infinite linear;
+  z-index: 2;
+  
+}
+@keyframes rotatevinyl {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+section .playside {
+ /* margin-top: 50px; */
+  width: 100%;
+  height: 100vh;
+  /* overflow-y: hidden; */
+}
+
+section audio {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 2;
+  /* display: none; */
+}
+
+section .navigation {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .navigation li {
+  list-style: none;
+  cursor: pointer;
+  margin: 0 10px -30px;
+  border-radius: 4px;
+  background: #fff;
+  padding: 3px 3px 0;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+section .navigation li:hover {
+  opacity: 1;
+}
+
+section .navigation li img {
+  transition: 0.5s;
+}
+
+section .navigation li img:hover {
+  border: 1px solid rgb(245, 229, 55);
+}
+
+.navigation {
+  position: relative;
+}
+
+.navigation .slides {
+  display: none;
+}
+
+.navigation .slides.active {
+  display: block;
+}
+
+.navigation .slides img {
+  width: 550px;
+  height: 550px;
+  min-width: 50%;
+}
+
+@media screen and (max-width: 1400px) {
+
+  .navigation .slides img {
+    width: 450px;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 1200px) {
+
+  .navigation .slides img {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 1000px) {
+
+  .navigation .slides img {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 800px) {
+
+  .navigation .slides img {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 700px) {
+
+  .navigation .slides img {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 600px) {
+
+  .navigation .slides img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+.preNext {
+  position: relative;
+  user-select: none;
+  
+}
+
+.preNext span {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  cursor: pointer;
+  font-size: 4rem;
+  color: #fff;
+  
+}
+
+.preNext span:nth-child(2) {
+  margin-right: 20px;
+}
 
 
 

@@ -57,9 +57,6 @@
 
                 </ul>
             </div>
-            <!-- Search form -->
-            <!-- <form class="form-inline">
-            <input class="form-control" type="text" placeholder="Search" aria-label="Search"> -->
         </nav>
 
     </section>
@@ -67,10 +64,10 @@
     <!-- carousel -->
 
     <section class="carousel">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./image/slide1.jpg" class="d-block w-100" alt="musique country">
+                    <img src="./image/slide1.jpg" class="d-block w-100 " alt="musique country">
                 </div>
                 <div class="carousel-item">
                     <img src="./image/slide2.jpg" class="d-block w-100" alt="indies rock">
@@ -197,14 +194,74 @@
                     <iframe width="450" height="300" src="https://www.youtube.com/embed/PQnL6cjo3iY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="col-md-6">
-                    <iframe width="450" height="300" src="https://www.youtube.com/embed/SDvfbvuJtS8" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                    <iframe width="450" height="300" src="https://www.youtube.com/embed/F8ht5lM-ahU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
-
+    <section class="playslide">
+        <img src="./images/vinyl2.png" alt="disque vinyl" class="rotatevinyl" />
+        <audio id="player" controls >
+          <source src="./assets/audio1.mp3" type="audio/mpeg" />
+        </audio>
+        <ul class="navigation">
+          <div class="preNext">
+            <span class="prev1">
+              <ion-icon name="arrow-dropleft"></ion-icon>
+            </span>
+          </div>
+          
+          <li class="slides active" onclick="playPause('assets/audio1.mp3')">
+            <img src="images/audio1.jpg" alt="image album1" />
+          </li>
+          <li class="slides" onclick="playPause('assets/audio2.mp3')">
+            <img src="images/audio2.jpg" alt="image album2" />
+          </li>
+          <li class="slides" onclick="playPause('assets/audio3.mp3')">
+            <img src="images/audio3.jpg" alt="image album3" />
+          </li>
+          <li class="slides" onclick="playPause('assets/audio4.mp3')">
+            <img src="images/audio4.jpg" alt="image album4" />
+          </li>
+          <li class="slides" onclick="playPause('assets/audio5.mp3')">
+            <img src="images/audio5.jpg" alt="image album5" />
+          </li>
+          <li class="slides" onclick="playPause('assets/audio6.mp3')">
+            <img src="images/audio6.jpg" alt="image album6" />
+          </li>
+          <li class="slides" onclick="playPause('assets/audio7.mp3')">
+            <img src="images/audio7.jpg" alt="image album6" />
+          </li>
+          <li class="slides" onclick="playPause('assets/audio8.mp3')">
+            <img src="images/audio8.jpg" alt="image album6" />
+          </li>
+          <li class="slides" onclick="playPause('assets/audio9.mp3')">
+            <img src="images/audio9.jpg" alt="image album6" />
+          </li>
+          <li class="slides" onclick="playPause('assets/audio10.mp3')">
+            <img src="images/audio10.jpg" alt="image album6" />
+          </li>
+          <li class="slides" onclick="playPause('assets/audio11.mp3')">
+            <img src="images/audio11.jpg" alt="image album6" />
+          </li>
+          <li class="slides" onclick="playPause('assets/audio12.mp3')">
+            <img src="images/audio12.jpg" alt="image album6" />
+          </li>
+          <li class="slides" onclick="playPause('assets/audio13.mp3')">
+            <img src="images/audio13.jpg" alt="image album6" />
+          </li>
+          <li class="slides" onclick="playPause('assets/audio14.mp3')">
+            <img src="images/audio14.jpg" alt="image album6" />
+          </li>
+          <li class="slides" onclick="playPause('assets/audio15.mp3')">
+            <img src="images/audio15.jpg" alt="image album6" />
+          </li>
+        </div>
+          <div class="preNext">
+            <span class="next1"><ion-icon name="arrow-dropright"></ion-icon></span>
+          </div>
+        </ul>
+    </section>
     <!-- <div id="musicBox" class="music-box"></div> -->
     <footer>
         <div class="container">
@@ -249,7 +306,15 @@
             </div>
         </div>
     </footer>
-
+    <script src="./slide_player.js"></script>
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule=""
+    src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+  ></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
