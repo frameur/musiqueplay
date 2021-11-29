@@ -1,0 +1,11 @@
+[0126/212457.187:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[0126/212457.200:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\FranÃ§ois\AppData\Local\CCleaner Browser\User Data\Crashpad\attachments\06e02a41-f3ee-4354-9ac8-ea0a0ea969ae: Le chemin d’accès spécifié est introuvable. (0x3)
+[0128/193922.141:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[0130/111706.960:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[0131/190036.705:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[0131/192843.612:ERROR:process_info.cc(359)] UncheckedAllocate
+[0131/192843.695:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\FranÃ§ois\AppData\Local\CCleaner Browser\User Data\Crashpad\attachments\58a6032f-27ef-4481-9fee-a504b0a7f214: Le chemin d’accès spécifié est introuvable. (0x3)
+[0131/225430.218:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[0202/212832.347:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[0204/220432.545:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\FranÃ§ois\AppData\Local\CCleaner Browser\User Data\Crashpad\attachments\957716f2-3e55-48ca-a270-18d48cf510bb: Le chemin d’accès spécifié est introuvable. (0x3)
+[0204/220432.783:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
