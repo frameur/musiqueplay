@@ -4,8 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
-  
 }
 html{
   scroll-behavior: smooth;
@@ -254,11 +252,11 @@ body {
 } */
 
 .rotatevinyl {
-  width: 40%;
+  width: 15%;
   position: absolute;
   transform: translate(-50%);
-  top: 70%;
-  left: 50%;
+  top: 90%;
+  left: 51%;
   animation: rotatevinyl 2s infinite linear;
   z-index: 2;
   
@@ -275,25 +273,27 @@ body {
 }
 
 section .playside {
- /* margin-top: 50px; */
-  width: 100%;
+ margin-top: 50px;
+  width: 50%;
   height: 100vh;
   /* overflow-y: hidden; */
 }
 
 section audio {
   position: absolute;
-  bottom: 0;
+  bottom: 40%;
   left: 50%;
   transform: translate(-50%);
-  z-index: 2;
+  z-index: 10;
+  display: none;
   /* display: none; */
 }
 
 section .navigation {
   position: absolute;
-  bottom: 90px;
-  left: 50%;
+  width: 50%;
+  bottom: 0;
+  left: 56%;
   transform: translateX(-50%);
   z-index: 100;
   display: flex;
@@ -305,8 +305,9 @@ section .navigation li {
   list-style: none;
   cursor: pointer;
   margin: 0 10px -30px;
+  width: 50%;
   border-radius: 4px;
-  background: #fff;
+  /* background: #fff; */
   padding: 3px 3px 0;
   opacity: 1;
   transition: 0.5s;
@@ -318,6 +319,7 @@ section .navigation li:hover {
 
 section .navigation li img {
   transition: 0.5s;
+  width: 50%;
 }
 
 section .navigation li img:hover {
@@ -337,52 +339,13 @@ section .navigation li img:hover {
 }
 
 .navigation .slides img {
-  width: 550px;
-  height: 550px;
+  width: 50%;
+  height: 50%;
   min-width: 50%;
 }
 
-@media screen and (max-width: 1400px) {
-
-  .navigation .slides img {
-    width: 450px;
-    height: 450px;
-  }
-}
-@media screen and (max-width: 1200px) {
-
-  .navigation .slides img {
-    width: 400px;
-    height: 400px;
-  }
-}
-@media screen and (max-width: 1000px) {
-
-  .navigation .slides img {
-    width: 350px;
-    height: 350px;
-  }
-}
-@media screen and (max-width: 800px) {
-
-  .navigation .slides img {
-    width: 300px;
-    height: 300px;
-  }
-}
-@media screen and (max-width: 700px) {
-
-  .navigation .slides img {
-    width: 200px;
-    height: 200px;
-  }
-}
 @media screen and (max-width: 600px) {
 
-  .navigation .slides img {
-    width: 160px;
-    height: 160px;
-  }
   section .carousel img {
     height: 30vh;
   }
@@ -402,8 +365,8 @@ section .navigation li img:hover {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border: 2px solid #fff;
   cursor: pointer;
   font-size: 4rem;
@@ -412,7 +375,10 @@ section .navigation li img:hover {
 }
 
 .preNext span:nth-child(2) {
-  margin-right: 20px;
+  margin-right: 100px;
+}
+.next1 {
+  margin-left: -178px;
 }
 
 
